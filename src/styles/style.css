@@ -1,0 +1,1248 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+.container{
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color:  #000000;
+    display: inline-block;
+}
+/* Header*/
+header a{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 25px 30px;
+}
+header nav{
+    background-color: #313030 ;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+header {
+    padding-top: 30px;
+    background-color: #f6f2f2;
+}
+header a:hover,
+header .active a{
+
+    background-color: #f33f40;
+    transition: .3s;
+}
+/* our strong*/
+.about{
+    padding-top:  110px ;
+    padding-bottom: 110px;
+    background-color:  #f6f2f2;
+}
+
+.btn {
+    text-transform: capitalize;
+    border: 5px solid #ff2d2d;
+    border-radius: 5px;
+    padding: 13px 53px;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.row {
+    display: flex;
+
+}
+.about .row{
+    gap:110px;
+    align-items: center;
+
+}
+.about .col{
+    width: 50%;
+}
+.about .about__title{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.about .about__description{
+    max-width: 515px;
+    margin-bottom: 60px;
+    color: #9a9898;
+}
+.btn {
+    border: 3px solid #ff2d2d;
+    border-radius: 5px ;
+    padding: 15px 55px;
+}
+.about .about__contact{
+    text-transform: capitalize;
+    background-color: #ff2d2d;
+    color:  #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.about .about__contact:hover{
+    background-color: transparent;
+    color: #ff2d2d;
+    transition: .3s;
+}
+.about .about__video-wrapper iframe{
+    border: none;
+    box-shadow: 0 0 65px -20px;
+    width: 100%;
+    border-radius: 3px;
+}
+/*Serves*/
+.service{
+    padding-top: 110px;
+
+
+}
+.service .row {
+    display: flex;
+    padding-bottom: 110px;
+
+}
+.service .service__info-col{
+    width:50%;
+}
+.service .service__info-col h2{
+    font-weight:normal;
+    font-size: 54px;
+    line-height: 49px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #333333;
+
+}
+.service .service__info-col p{
+    font-size: 18px;
+    padding-top: 55px;
+}
+.btn {
+    border: 3px solid #ff2d2d;
+    border-radius: 5px;
+    padding: 15px 55px;
+    color: #ff2d2d;
+    margin-top: 60px;
+
+}
+.service .service__service{
+    text-transform: capitalize;
+    background-color:#ffffff;
+    color: #ff2d2d;
+    font-weight: 700;
+    font-size: 18px;
+}
+.service .service__service:hover {
+    background-color: transparent;
+    color:#ff2d2d ;
+    transition: .3s;
+}
+.service .service__elements{
+    width:50%;
+    font-size: 18px;
+    padding-left: 145px;
+}
+.service .service__elements{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.service .service__item{
+    width:50%;
+    text-align: left;
+}
+.service .service__item h3{
+    padding: 10px;
+    color: #737373;
+
+}
+.service .service__item p{
+    padding: 10px;
+    color: #c5c5c5;
+}
+.service .service__item img {
+    padding: 10px;
+    max-width:25%;
+}
+.service .service__line-elements{
+    border-bottom: 2px solid #ececec;
+}
+/* Feature*/
+.Feature{
+    padding-top: 110px;
+
+}
+.Feature .row{
+    display: flex;
+    justify-content: center;
+}
+.Feature .products__col .feat{
+    font-weight: bold;
+    color: #333333;
+    font-size: 38px;
+    text-align: center;
+}
+.Feature .products__col .ducts{
+    text-align: center;
+    font-size: 20px;
+    padding:39px 160px;
+    color: #737373;
+}
+.Feature .line__prod {
+    width: 139px;
+    border-bottom: 2px solid #ff2d2d;
+    padding: 29px 0 0 0;
+    margin: 0 auto;
+}
+.Feature .line__prod {
+    width: 139px;
+    border-bottom: 2px solid #ff2d2d;
+}
+.Feature .main__menu{
+    display: flex;
+    justify-content: center;
+}
+.Feature .main__menu {
+    gap: 60px;
+}
+.Feature .main__menu li{
+    font-weight: 500;
+    font-style:normal;
+    color: #737373;
+    font-size: 20px;
+   padding-top: 90px;
+    padding-bottom: 65px;
+
+}
+.Feature  .main__menu a:hover,
+.positive a{
+    color: #f33f40;
+    transition: .3s;
+}
+.Feature .photo__row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.Feature .photo__block{
+    width:calc(25% - 15px);
+    height:288px ;
+    background: #f5f0dd;
+
+}
+/* MEET OUR TEAM*/
+.Meet{
+    padding-top: 110px;
+}
+.meet__col h2{
+    font-weight: 600;
+    font-size:40px ;
+    color: #333333;
+
+}
+.meet__col p{
+    font-size: 20px;
+    padding: 43px 0 35px 0;
+    margin-right: 50%;
+    color: #a0a0a0;
+
+}
+.line__meet{
+    width:133px ;
+    border-bottom: 2px solid #ff3b3b;
+
+}
+.out{
+    padding-top: 70px;
+    padding-bottom: 110px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.meet__one{
+    width: 50%;
+    background-color: #f5f0dd;
+}
+.meet__team-info {
+    padding-left: 81px;
+}
+.meet__team-info h3{
+    font-size: 30px;
+    font-weight: normal;
+    color: #585858;
+}
+.meet__team-info p{
+    padding-top:20px;
+    font-size: 20px;
+    align-items: center;
+    color: #a0a0a0;
+}
+.meet__team-socials ul{
+    display:flex;
+    padding-top: 30px;
+    font-style: italic;
+    font-size: 20px;
+    color:#9c9c9c;
+    gap:36px;
+    padding-bottom: 36px;
+
+}
+.meet__card-block{
+    display: flex;
+    text-align: center;
+    gap:15px;
+    padding-top: 30px;
+}
+.meet__card{
+    background-color: #f5f0dd;
+    width:199px;
+    height: 215px;
+}
+.meet__card a{
+    background-color: #7a786e;
+    margin-top: 168px;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding: 11px 56px;
+}
+.meet__card:hover.meet__card a{
+    display:inline-block ;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    transition: .3s;
+}
+.meet__card a{
+    display: none;
+}
+/*design*/
+.subscribe {
+    padding-top:  110px;
+    padding-bottom: 110px;
+
+}
+.subscribe{
+    text-align: center;
+    background:#f5f0dd;
+    color: white;
+}
+.subscribe .subscribe__delivered{
+    margin-bottom: 60px;
+}
+.subscribe .subscribe__delivered h2{
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 35px;
+    color: #ffffff;
+}
+.subscribe .email__address input{
+    width: 40%;
+    padding: 30px 50px;
+    border: 0;
+    font-size: 16px;
+    color:#2c2c2c;
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+    margin: 0 25px 0 0;
+    border-radius: 5px ;
+
+}
+.subscribe .email__address input::placeholder{
+    font-size: 16px;
+    color:#2c2c2c;
+}
+.subscribe .about__subscribe-design{
+    text-transform: uppercase;
+    background-color: #ff2d2d;
+    color: white;
+    border: 5px solid #ff2d2d;
+    border-radius: 5px;
+    padding: 23px 60px ;
+    margin-left: 30px;
+    cursor:pointer ;
+}
+.subscribe .about__subscribe-design:hover {
+    background-color: transparent;
+    color: #ff2d2d;
+    transition: .3s;
+}
+/*lend in touch*/
+.lend{
+    margin-top: 110px;
+    padding-bottom: 110px;
+    overflow-x: hidden;
+}
+
+.lend .row__title{
+    padding-bottom: 75px;
+}
+.lend .row__title h2{
+    color: #333333;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.lend .row__title p{
+    font-weight: normal;
+    font-size: 18px;
+    color: #c5c5c5;
+    padding-bottom: 50px;
+    max-width: 750px;
+}
+.lend .line__meet{
+    width: 130px;
+    border-bottom: 2px solid #ff2d2d;
+}
+.lend .lend__row{
+    display: flex;
+    justify-content: space-between;
+}
+.lend .lend__form{
+    width: 60%;
+}
+.lend .lend__input{
+    display: flex;
+    justify-content: space-between;
+    gap:55px;
+    padding-bottom: 45px;
+}
+.lend .lend__input input{
+    width: 100%;
+    padding: 25px 70px 25px 70px;
+    padding-inline: 75px;
+    background-color: #e5e5e5;
+    border:2px solid #e5e5e5;
+    border-radius: 12px;
+}
+.lend .lend__textarea{
+    padding-bottom: 47px;
+}
+.lend .lend__textarea textarea{
+    width: 100%;
+    height: 260px;
+    padding-inline: 75px;
+    background-color:#e5e5e5 ;
+    border: none;
+    border-radius: 12px;
+    resize: none;
+    padding-block-start: 35px;
+}
+.lend .lend__input input::placeholder,
+.lend .lend__textarea textarea::placeholder{
+    color: #000000;
+    font-size: 18px;
+}
+.lend .lend__button{
+    width: 100% ;
+    height: 72px;
+    font-size: 18px;
+    background-color: #ff3b3b;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lend .lend__button:hover{
+    background-color: transparent;
+    color: #ff3b3b;
+    transition: .3s;
+}
+/*contact-info*/
+.lend .contact__info{
+    width: 30%;
+    position: relative;
+    background-color: #2c2c2c;
+    padding: 100px 76px 100px 76px;
+
+}
+.lend .contact__info:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #2c2c2c;;
+    left: 100%;
+}
+.lend .contact__info h2{
+    font-size: 18px;
+    padding-bottom: 42px;
+    color:#ffffff ;
+}
+.lend .contact__info address{
+    font-size: 16px;
+    color: #ffffff;
+    font-style: normal;
+    padding-bottom: 30px;
+}
+.lend .contact__info a{
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+}
+.lend .contact__info p{
+    color: #ffffff;
+    font-size: 17px;
+    padding-top: 17px;
+}
+/*footer-copywriter*/
+.copywriter{
+   padding:48px 0 30px 0 ;
+}
+.copywriter {
+    background-color: #313030;
+}
+.copywriter .row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.copywriter .copywriter__text{
+    color: #ffffff;
+}
+.copywriter .copywriter__icons-list{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.copywriter .copywriter__icons-list ul{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+@media (max-width: 1280px){
+    .container{
+        max-width: 1024px;
+        background-color: aquamarine;
+    }
+}
+@media (max-width: 1024px) {
+    .container {
+        max-width: 875px;
+        background-color: aqua;
+    }
+    .header {
+        font-size: 50px;
+    }
+    .about .row {
+        display: flex;
+        padding-top: 40px;
+    }
+    .col .about__inform {
+        max-width: 100%;
+    }
+    .about .about__title {
+        font-size: 50px;
+
+        padding-left: 20px;
+    }
+    .about .about__description {
+        font-size: 30px;
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+    .about .about__video-wrapper {
+        max-width: 100%;
+    }
+    .about .about__contact {
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .service .row {
+        display: flex;
+        padding-top: 40px;
+    }
+    .service .service__info-col h2 {
+        font-size: 50px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .service .service__info-col p {
+        font-size: 35px;
+        padding-top: 20px;
+        padding-left: 20px
+    }
+    .service .service__service {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .service .service__item {
+        width: 100%;
+        font-size: 23px;
+    }
+    .service .service__line-elements {
+        font-size: 50px;
+        border-bottom: 8px solid #ececec;
+    }
+    .Feature .row {
+        display: flex;
+        padding-top: 30px;
+    }
+    .Feature .products__col .feat {
+        padding-top: 30px;
+        font-size: 50px;
+    }
+    .Feature .products__col .ducts {
+        padding-top: 15px;
+        font-size: 35px;
+    }
+    .Feature .line__prod {
+        width: 30%;
+        padding-top: 10px;
+    }
+    .Feature .main__menu li {
+        width: 50%;
+        font-size: 28px;
+    }
+    .Feature .photo__row {
+        width: 100%;
+        margin-bottom: 30px;
+        gap: 15px;
+    }
+    .Meet .row {
+        display: flex;
+    }
+    .Meet .meet__col h2 {
+        text-align: left;
+        padding-top: 30px;
+        font-size: 50px;
+        padding-left: 20px;
+    }
+    .Meet .meet__col p {
+        text-align: left;
+        font-size: 30px;
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+
+    .Meet .meet__one {
+        max-width: 85%;
+        margin: 10px 20px 40px 0;
+    }
+    .Meet .meet__team-info h3 {
+        font-size: 40px;
+    }
+    .Meet .meet__team-info p {
+        font-size: 26px;
+    }
+    .Meet .meet__team-socials ul {
+
+        width: 20%;
+        font-size: 20px;
+    }
+    .Meet .meet__card-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: calc(25% - 4);
+        margin-bottom: 60px;
+        gap: 6px;
+    }
+    .subscribe {
+        display: flex;
+    }
+    .subscribe .subscribe__delivered h2 {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    .subscribe .subscribe__delivered p {
+        font-size: 27px;
+        padding-top: 10px;
+    }
+    .subscribe .email__address,
+    .subscribe .about__subscribe-design {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+
+    .lend .row {
+        display: flex;
+    }
+    .lend .row__title h2 {
+        padding-top: 30px;
+        font-size: 50px;
+    }
+    .lend .row__title p {
+        width: 50%;
+        padding-top: 10px;
+    }
+    .lend .lend__form {
+        width: 55%;
+    }
+    .lend .lend__textarea {
+        font-size: 40px;
+    }
+    .lend .lend__button {
+        margin-bottom: 60px;
+        font-size: 25px;
+    }
+    .lend .contact__info {
+        width: 40%;
+        height: 100%;
+        font-size: 40px;
+    }
+
+    .copywriter .row{
+        display: flex;
+        justify-content: space-around;
+    }
+    .copywriter .copywriter__text{
+        font-size: 20px;
+    }
+    .copywriter .copywriter__icons-list{
+       max-width: 100%;
+    }
+}
+@media (max-width: 875px) {
+    .container {
+        max-width: 677px;
+        background-color: peachpuff;
+    }
+    header nav ul{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        font-size: 40px;
+        text-align: center;
+    }
+    .about .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .about .about__title{
+       font-size: 55px;
+        margin: 30px 20px 20px -70px;
+        text-align: center;
+
+    }
+    .about .about__description{
+        font-size: 50px;
+       text-align: center;
+    }
+
+   .about .about__contact{
+       font-size: 40px;
+       padding: 10px 10px 10px 10px;
+       width: 170%;
+       margin: 10px 20px 20px -90px;
+   }
+   .about .about__video-wrapper iframe{
+      width: 170%;
+     margin: 20px 20px 60px -90px;
+   }
+   .service .row{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+   .service .service__info-col h2{
+       font-size: 55px;
+       width: 100%;
+
+       text-align: center;
+       margin: 30px 120px;
+   }
+   .service .service__info-col p{
+       text-align: center;
+       width: 100%;
+       font-size: 40px;
+       margin: 30px 120px;
+   }
+   .service .service__service{
+       font-size: 40px;
+       padding: 10px 10px 10px 10px;
+       width: 170%;
+       margin: 10px 20px 20px 60px;
+       text-align: center;
+   }
+   .service .service__elements{
+       width: 50%;
+   }
+   .service .service__item h3{
+      font-size: 48px;
+       text-align: left;
+   }
+    .service .service__item p{
+        text-align: center;
+        font-size: 40px;
+    }
+    .Feature .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Feature .products__col .ducts{
+        text-align: center;
+    }
+    .Feature .main__menu li {
+        font-size: 25px;
+        padding: 50px 5px 5px 5px;
+       margin-bottom: 30px;
+    }
+    .Feature .photo{
+        display: inline-block;
+       width: 100%;
+        gap: 4px;
+    }
+    .Meet{
+        margin-bottom: 30px;
+    }
+    .Meet .row{
+        display: flex;
+       flex-direction: column;
+    }
+    .Meet .meet__col h2{
+justify-content: center;
+        text-align: center;
+        font-size: 36px;
+        width: 100%;
+        margin-left: 100px;
+
+    }
+    .Meet .meet__col p{
+       text-align: center;
+      justify-content: center;
+        width: 150%;
+        font-size: 20px;
+        margin-left: 60px;
+    }
+
+    .out .wrapper{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .out .meet__one{
+        width: 100%;
+
+
+    }
+    .out{
+        margin-top: 30px;
+
+    }
+    .out .meet__team-info h3{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    .out .meet__team-socials ul{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        font-size: 28px;
+    }
+    .out .meet__card-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .out .meet__card{
+        width: 50%;
+        align-items: center;
+       gap:10px;
+        margin: 0 80px 30px 80px;
+
+    }
+
+
+
+
+    .about{
+        padding-top: 30px;
+    }
+    .about .about__subscribe-design{
+       font-size: 20px;
+    }
+
+    .lend .row__title h2{
+        text-align: center;
+        justify-content: center;
+    }
+    .lend .row__title p{
+        text-align: center;
+        justify-content: center;
+        margin: 0 150px 10px 150px;
+    }
+    .lend .line__meet{
+      margin: 0 250px 0 250px;
+    }
+
+    .lend .lend__row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    .lend .lend__input {
+        margin: 0 250px 0 150px;
+        font-size: 30px;
+    }
+    .lend .lend__textarea{
+        margin: 0 150px 0;
+        width: 100%;
+        font-size: 35px;
+    }
+    .lend .lend__button{
+        width: 140%;
+        margin: 0 90px 0;
+    }
+    .lend .contact__info{
+      margin: 40px 150px 30px ;
+    }
+    .lend .contact__info h2{
+        justify-content: center;
+        font-size: 30px;
+    }
+    .lend .contact__info address{
+        font-size: 23px;
+    }
+    .lend .contact__info a{
+     font-size: 20px;
+    }
+}
+@media (max-width: 677px) {
+    .container {
+        max-width: 484px;
+        background-color: darkkhaki;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 20px;
+    }
+
+    .about .about__title {
+        font-size: 27px;
+        text-align: center;
+        gap: 8px
+    }
+
+    .about .about__description {
+        font-size: 25px;
+        text-align: left;
+        margin-right: 50px;
+    }
+
+    .about .about__contact {
+        width: 100%;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .about .about__video-wrapper {
+        width: 90%;
+        margin-left: 25px;
+    }
+
+    .service .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service .service__info-col h2 {
+        font-size: 27px;
+        text-align: left;
+    }
+
+    .service .service__info-col p {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .service .service__service {
+        width: 100%;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+
+    .service .service__item h3 {
+        font-size: 25px;
+    }
+
+    .service .service__item p {
+        font-size: 23px;
+        text-align: left;
+    }
+
+    .Feature .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .Feature .products__col {
+        width: 100%;
+    }
+
+    .Feature .products__col .feat {
+        font-size: 25px;
+    }
+
+    .Feature .products__col .ducts {
+        font-size: 20px;
+    }
+
+    .Feature .main__menu {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin: 10px 200px 10px 200px;
+        text-align: left;
+    }
+
+    .Feature .photo__block {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        gap: 3px;
+        margin-left: 150px;
+    }
+
+    .Meet .meet__col {
+        width: 50%;
+    }
+
+    .Meet .meet__one {
+        margin-left: 50px;
+    }
+
+    .Meet .meet__team-info {
+        display: flex;
+        flex-direction: column;
+
+        width: 50%;
+    }
+
+    .Meet .meet__team-socials ul li a {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 3px;
+
+    }
+
+    .subscribe .subscribe__delivered {
+        width: 100%;
+    }
+
+    .subscribe .email__address {
+
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .subscribe .about__subscribe-design {
+        margin-top: 20px;
+        padding: 18px 100px 18px;
+
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .lend .row {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .lend .row__title h2 {
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    .lend .row__title p {
+        text-align: left;
+    }
+
+    .lend .line__meet {
+        justify-content: flex-start;
+
+    }
+
+    .lend .lend__input {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lend .lend__button {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .lend .contact__info {
+        width: 50%;
+    }
+
+    .lend .contact__info h2 {
+        font-size: 18px;
+    }
+
+    .lend .contact__info address {
+        font-size: 16px;
+    }
+
+    .lend .contact__info a,
+    .lend .contact__info p {
+        font-size: 14px;
+    }
+
+   .copywriter .row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+   }
+   .copywriter .copywriter__text{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+   }
+   .copywriter .copywriter__icons-list{
+    font-size: 10px;
+    text-align: center;
+    margin: 10px 150px 10px;
+}
+}
+@media (max-width: 484px) {
+    .container {
+        max-width: 320px;
+        background-color: lightpink;
+    }
+    header nav ul{
+        width: 100%;
+        font-size: 28px;
+        gap: 7px;
+    }
+    .about .about__inform{
+        width: 100%;
+    }
+   .about .about__title{
+    font-size: 20px;
+    text-align: center;
+    gap: 6px;
+}
+   .about .about__contact{
+    width: 80%;
+}
+   .about .about__video-wrapper{
+    width: 100%;
+    height: 100%;
+}
+   .service .row{
+    width: 100%;
+}
+   .service .service__info-col h2{
+   font-size: 30px;
+    text-align: center;
+}
+    .service .service__service{
+        text-align: center;
+    }
+    .service .service__elements{
+        width: 100%;
+        text-align: center;
+        margin-right: 100%;
+    }
+    .service .service__item p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .service .service__item h3{
+        font-size: 18px;
+    }
+
+   .Feature .products__col .feat{
+   font-size: 40px;
+       width: 100%;
+
+   }
+    .Feature .products__col .ducts{
+        text-align: center;
+        width: 150%;
+        font-size: 28px;
+       margin-right: 100%;
+    }
+    .Feature .main__menu li{
+        margin-right: 100%;
+        text-align: center;
+    }
+
+    .subscribe .subscribe__delivered h2{
+        width: 50%;
+        margin-left: 80px;
+    }
+    .subscribe .subscribe__delivered p{
+        width: 50%;
+        margin-left: 80px;
+    }
+    .subscribe .about__subscribe-design{
+      font-size: 20px;
+        text-align: center;
+        margin-right: 60px;
+        padding: 10px 50px;
+    }
+    .lend .row__title h2{
+        width: 100%;
+    }
+
+.lend .lend__row{
+    align-self: center;
+    margin-right: 100%;
+}
+.lend .lend__form,
+.lend .lend__input{
+
+    text-align: center;
+}
+.copywriter .copywriter__text{
+    font-size: 18px;
+}
+.copywriter .copywriter__icons-list{
+    font-size: 16px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
